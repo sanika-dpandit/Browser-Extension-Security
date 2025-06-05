@@ -1,63 +1,58 @@
-# Browser-Extension-Security
- Hola VPN – Free VPN Proxy
-Permissions: Access to all websites, read and change all your data.
+Suspicious Browser Extensions
 
-Issues:
+Objective
+Identify and remove potentially harmful browser extensions to improve browser security and performance.
 
-Routes user traffic through other users’ devices (peer-to-peer network), which can be exploited.
+Tools Used
+- Google Chrome
+- Extension Manager: `chrome://extensions/`
+- User reviews, permissions analysis, and security documentation
 
-Known history of misuse and abuse of user bandwidth.
+Process
+1. Opened Chrome's extension manager.
+2. Reviewed installed extensions.
+3. Checked permissions and user reviews.
+4. Identified and removed suspicious/unnecessary extensions.
+5. Restarted browser to confirm performance improvement.
+6. Documented findings.
 
-Previously flagged by security researchers for potential privacy risks.
-
-Action Taken: Removed to prevent exposure to traffic hijacking.
+Extensions Removed
+1. Hola VPN – Free VPN Proxy
+- Permissions: Full access to all websites.
+  -Issues:
+  - Routes traffic through user devices (peer-to-peer).
+  - Previously used as part of a botnet.
+- Action: Removed
 
 2. Super Dark Mode
-Permissions: Modify appearance and content on every website.
-
-Issues:
-
-Requests access to all websites unnecessarily.
-
-Some versions contain hidden adware scripts.
-
-Reports of injecting affiliate links without user consent.
-
-Action Taken: Removed due to invasive permissions and ad-injection risk.
+- Permissions: Modify content on all websites.
+- Issues:
+  - Injects ads and affiliate links.
+  - Unnecessary permissions.
+- Action: Removed
 
 3. PDF Converter – Free PDF Tools
-Permissions: Read and change all data on websites you visit.
-
-Issues:
-
-Multiple user reviews report redirect behavior and suspicious popups.
-
-Likely bundled with browser hijacker malware.
-
-Action Taken: Removed to prevent data leakage and redirect attacks.
+- Permissions: Read and change data on websites.
+- Issues:
+  - Redirects, spam popups, bundled malware.
+- Action: Removed
 
 4. Flash Video Downloader
-Permissions: Full read/write access to visited websites.
-
-Issues:
-
-Outdated; requires deprecated Flash components.
-
-Known to inject malicious scripts on video sites.
-
-May log user activity for third-party ad networks.
-
-Action Taken: Removed due to outdated tech and security risks.
+- Permissions: Full access to website data.
+- Issues:
+  - Uses deprecated Flash technology.
+  - Injects malicious scripts.
+- Action: Removed
 
 5. Easy Shopping
-Permissions: Track browser activity, modify content.
+- Permissions: Monitor browsing, modify content.
+- Issues:
+  - Tracks user data, injects fake ads.
+- Action: Removed
 
-Issues:
+---
 
-Functions as adware, displaying fake deals and promotions.
+## 📣 Reporting Malicious Extensions
+To report:  
+Open Chrome Web Store → Extension page → Scroll down → Click **"Report Abuse"** → Submit details.
 
-Tracks user behavior and sends it to third parties.
-
-Difficult to uninstall; may reinstall itself.
-
-Action Taken: Removed and browser cleaned.
