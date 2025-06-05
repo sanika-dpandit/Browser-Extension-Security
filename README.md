@@ -1,4 +1,4 @@
-Suspicious Browser Extensions
+##Suspicious Browser Extensions
 
 Objective
 Identify and remove potentially harmful browser extensions to improve browser security and performance.
@@ -50,9 +50,7 @@ Extensions Removed
   - Tracks user data, injects fake ads.
 - Action: Removed
 
----
-
-## 📣 Reporting Malicious Extensions
+Reporting Malicious Extensions
 To report:  
-Open Chrome Web Store → Extension page → Scroll down → Click **"Report Abuse"** → Submit details.
+Open Chrome Web Store → Extension page → Scroll down → Click "Report Abuse" → Submit details.
 
