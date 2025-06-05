@@ -1,9 +1,9 @@
-##Suspicious Browser Extensions
+Suspicious Browser Extensions
 
 Objective
 Identify and remove potentially harmful browser extensions to improve browser security and performance.
 
-Tools Used
+Tools Use
 - Google Chrome
 - Extension Manager: `chrome://extensions/`
 - User reviews, permissions analysis, and security documentation
